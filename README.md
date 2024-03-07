@@ -1,6 +1,6 @@
 # DP-CRE
 
-Source code of the Decouple Processed Continual Relation Extraction  (DP-CRE) [Decouple Processed to Balance Continual Relation Extraction and Preserve Memory Structure].
+Source code of the Decouple Processed Continual Relation Extraction  (DP-CRE) [DP-CRE: Continual Relation Extraction via Decoupled Contrastive Learning and Memory Structure Preservation].
 
 >Continuous Relation Extraction (CRE) aims to incrementally learn relation knowledge from a non-stationary stream of data. One significant challenge in this domain is catastrophic forgetting, where the introduction of new relational tasks can overshadow previously learned information. Unlike traditional replay-based training paradigms that uniformly prioritize all data, we decouple the process of prior information preservation and new knowledge acquisition. In this paper, we introduce the Decouple Processed CRE (DP-CRE) framework. This approach examines alterations in the embedding space as new relation classes emerge, distinctly managing the preservation and acquisition of knowledge. Extensive experiments show that DP-CRE significantly outperforms other CRE
 baselines across two datasets.
